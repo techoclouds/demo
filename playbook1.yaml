@@ -1,0 +1,9 @@
+-
+  hosts: localhost
+  tasks:
+    - name: ping
+      ping:
+    - name: install curl
+      package:
+        state: present
+
