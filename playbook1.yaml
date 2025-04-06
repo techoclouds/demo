@@ -3,7 +3,7 @@
   tasks:
     - name: ping
       ping:
-    - name: install curl
+    - name: installs curl vim
       package:
         state: present
 
